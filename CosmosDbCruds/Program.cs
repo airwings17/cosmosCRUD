@@ -11,13 +11,13 @@ namespace CosmosDbCruds
     static async Task Main(string[] args)
     {
       // The Azure Cosmos DB endpoint for running this sample.
-      string EndpointUri = "https://testhsqwe.documents.azure.com:443/";
+      string EndpointUri = "";
       // The primary key for the Azure Cosmos account.
-      string PrimaryKey = "MFXo0vpyU6inhIdXLRRnAqfO6gal6lbuqdDXQIR1ntIK4jDV0WSDFxpU49Zxx49yT34XOuGubtoBam4HPWrmvA==";
+      string PrimaryKey = "";
 
       // The name of the database and container we will create
-      string databaseId = "mycosmos-p";
-      string containerId = "c1-temp";
+      string databaseId = "";
+      string containerId = "";
 
       // The Cosmos client instance
       CosmosClient cosmosClient = new CosmosClient(EndpointUri, PrimaryKey);
